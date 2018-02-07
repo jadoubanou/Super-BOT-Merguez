@@ -41,7 +41,7 @@ bot.on('message', message =>{
     }
 });
 
-bot.login('NDA5NzU1OTk5MjQ3Nzk0MTc2.DVjOlA.4CL49SGWN2cZmN7LCfp_3dX30R0');
+bot.login(process.env.TOKEN);
 
 function random(min, max) {
     min = Math.ceil(0);
